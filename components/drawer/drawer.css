@@ -1,0 +1,117 @@
+.drawer-container {
+  width: 100vw;
+  /* height: 100vh; */
+  padding: 3rem;
+  background-color: var(--whitesmoke);
+  flex-wrap: wrap;
+
+  padding: 5rem;
+}
+
+.drawer {
+  min-width: 26rem;
+  background-color: var(--white);
+  border-right: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+  overflow-y: scroll;
+}
+/* Heading  */
+.drawer__heading {
+  margin: 15px 15px 5px 15px;
+}
+.drawer__heading--title {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.drawer__heading--subtitle {
+  font-size: 1.2rem;
+  color: var(--dark-grey);
+  padding: 2px;
+}
+
+/* Drawer List Items  */
+.drawer__list {
+  align-items: stretch;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.drawer__list--item {
+  justify-content: start;
+  color: var(--medium-slate-blue);
+  border-radius: 3px;
+  margin: 5px 15px 5px 15px;
+  flex-shrink: 1;
+
+  padding: 6px;
+}
+.drawer__list--item:hover {
+  background-color: var(--whitesmoke);
+  cursor: pointer;
+}
+.drawer__list--item a {
+  text-decoration: none;
+  color: var(--black);
+}
+.drawer__list--icons {
+  width: 3rem;
+  padding: 5px;
+  margin-right: 2.5rem;
+  filter: invert(52%) sepia(1%) saturate(23%) hue-rotate(314deg) brightness(98%)
+    contrast(99%);
+}
+
+/* selected drawer list item  */
+
+.selected-drawer-list-item {
+  background-color: var(--blue-mangolia);
+}
+.selected-drawer-list-item:hover {
+  background-color: var(--blue-mangolia-dark);
+}
+.selected-drawer-list-item a {
+  color: var(--medium-slate-blue);
+}
+
+.selected-drawer-list-item img {
+  filter: invert(34%) sepia(70%) saturate(4867%) hue-rotate(236deg)
+    brightness(106%) contrast(87%);
+}
+
+/* Permanent drawer  */
+.permanent-drawer-wrapper {
+  display: flex;
+  flex-direction: rows;
+  width: 100vw;
+  background-color: var(--white);
+  margin-top: 3rem;
+  height: 40rem;
+  border-left: 2px solid var(--dark-grey);
+  border-top: 2px solid var(--dark-grey);
+}
+.header-content-container {
+  overflow-y: scroll;
+}
+.header-permanent-drawer {
+  margin-bottom: 1rem;
+}
+
+.header-content-container .header-permanent-drawer h1 {
+  height: 6.5rem;
+  background-color: var(--medium-slate-blue);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.content {
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+.bookmark--icon {
+  width: 2.5rem;
+  margin-right: 3rem;
+}

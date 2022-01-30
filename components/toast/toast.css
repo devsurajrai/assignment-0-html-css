@@ -1,0 +1,32 @@
+.toast-wrapper {
+  position: absolute;
+
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.toast {
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 45rem;
+  height: 5rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.toast__retry {
+  text-decoration: none;
+  color: var(--oranged);
+  letter-spacing: 1px;
+}
+
+.toast__close {
+  color: white;
+}

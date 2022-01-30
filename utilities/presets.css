@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* colors  */
+
+:root {
+  --background-color: #f0fff0;
+  /* cards  */
+  --oranged: #ee3900;
+  --blue: rgb(0, 0, 255);
+  --black: black;
+  --white: white;
+  --whitesmoke: whitesmoke;
+  --light-grey: #d3d3d3;
+  --dark-grey: grey;
+  --orange: #ff5722;
+
+  /* chips  */
+  --color-accent: rgb(231, 84, 128);
+  --color-primary: rgb(89, 0, 255);
+  --color-none: rgb(56, 9, 144);
+  --color-warn: rgb(220, 88, 42);
+  /* drawer */
+
+  --blue-mangolia: #ede1fd;
+  --blue-mangolia-dark: #c7b4e0;
+  --medium-slate-blue: #6b5eee;
+
+  /* components page  */
+}
+/* flex-properties  */
+.display-flex-c-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.display-flex-c-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.display-flex-r-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

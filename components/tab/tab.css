@@ -1,0 +1,34 @@
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--whitesmoke);
+}
+.tab-container {
+  margin: 1rem;
+}
+
+.tab {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  background-color: var(--white);
+  color: var(--dark-grey);
+  margin: 5px;
+}
+.tab:hover {
+  background-color: var(--light-grey);
+  cursor: pointer;
+}
+
+.active-tab {
+  background-color: var(--blue-mangolia);
+  color: blueviolet;
+  border-bottom: 2px solid blueviolet;
+}
+
+.active-tab:hover {
+  background-color: var(--blue-mangolia);
+}

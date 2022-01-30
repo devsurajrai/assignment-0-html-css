@@ -1,0 +1,63 @@
+h1 {
+  padding-bottom: 4rem;
+}
+.badges-container {
+  padding: 4rem;
+}
+/* Text with a badge  */
+.badge-container {
+  font-size: 2rem;
+}
+
+.text-with-badge__text {
+  position: relative;
+  display: inline-block;
+}
+.badge {
+  display: inline-block;
+  position: absolute;
+  padding: 0.3em;
+  padding-inline: 0.6em;
+  border-radius: 50%;
+  background-color: rebeccapurple;
+  top: -1em;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+/* text with large badge  */
+.large-badge {
+  font-size: 3.2rem;
+  padding: 0em;
+  padding-inline: 0.3em;
+  top: -0.6em;
+  right: -0.7em;
+}
+/* <!-- Button with a badge on left  --> */
+.btn-w-badge {
+  position: relative;
+  height: 2.2em;
+  width: 4em;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--oranged);
+  color: white;
+  font-size: 2rem;
+}
+.btn-left-badge {
+  left: -1em;
+  font-size: 0.9em;
+  background-color: seagreen;
+}
+
+/* Icon with a badge  */
+.icon-container {
+  position: relative;
+  font-size: 4rem;
+}
+.icon-badge {
+  font-size: 0.6em;
+  top: -0.6em;
+  left: 1.8em;
+}

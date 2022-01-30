@@ -1,0 +1,89 @@
+/* Basic Chips  */
+.chips-wrapper {
+  margin: 5rem;
+  padding: 1rem;
+  background-color: var(--chips-back-yellow);
+  border: 2px solid var(--light-grey);
+  border-radius: 1rem;
+}
+.chips-wrapper__heading {
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+}
+
+.chips {
+  margin-top: 1rem;
+  padding: 3rem;
+  padding-left: 1rem;
+}
+
+.chips__text {
+  /* display:inline-block; */
+  padding: 0.8rem;
+  margin: 0.4rem;
+  background-color: var(--light-grey);
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chips__text--image {
+  width: 1.2rem;
+  margin-left: 0.4rem;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.chips__text--image:hover {
+  cursor: pointer;
+  width: 1.5rem;
+  transition: all 0.1s ease;
+}
+.chips__text:hover {
+  /* background-color: var(--dark-grey); */
+  filter: opacity(70%);
+  cursor: pointer;
+}
+
+.chips--flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.chips__text--primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.chips__text--accent {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+/* Stacked Chips  */
+
+.flex-direction-col {
+  flex-direction: column;
+}
+
+.chips__text--mod {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 20rem;
+  color: white;
+}
+.chips__text--flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chips__text--warn {
+  background-color: var(--color-warn);
+}
+.chips__text--none {
+  background-color: var(--color-none);
+}
