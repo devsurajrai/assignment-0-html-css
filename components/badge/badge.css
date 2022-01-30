@@ -44,6 +44,7 @@ h1 {
   background-color: var(--oranged);
   color: white;
   font-size: 2rem;
+  cursor: pointer;
 }
 .btn-left-badge {
   left: -1em;
